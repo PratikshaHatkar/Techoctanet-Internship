@@ -1,0 +1,117 @@
+*{
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+@media(max-width:600px){
+.top{
+    flex-direction: column;
+    align-items: flex-start;
+    }
+.image{
+    width: 10%;
+    height: 15vh;
+    background-position: center;
+    background-size: cover;
+}
+.mid{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bottom{
+    flex-direction: column;
+    align-items: flex-start;  
+}
+.img1 ,.img2{
+    min-width: 100%;
+    height: 20vh;
+}
+.logo img{
+   padding: 10px;
+}
+}
+.top{
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Website-BAckgrounds1.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.top h1{
+    margin: 20px;
+    padding: 10px;
+    font-size: 100px;
+}
+.image{
+    background-image: url(https://assets.hongkiat.com/uploads/nature-photography/autumn-poolside.jpg);
+    width: 17%;
+    height: 42vh;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid white;
+}
+.top p{
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;  
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+.mid h1{
+    padding: 68px;
+}
+.mid p{
+    padding: 20px;
+}
+.img1{
+    background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
+    width: 50vw;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;  
+}
+
+.img2{
+     background-image: url(https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+     width: 50vw;
+     height: 60vh;
+     background-position: center;
+     background-size: cover;
+}
+.separate{
+    background-color: white;
+    height: 3px;
+}
+.bottom{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+   
+}
+.invert{
+    filter: invert();
+}
+li{
+   list-style: none; 
+   display: flex;
+   padding: 20px 70px;
+   gap: 4vw;
+  
+}
+.logo{
+    padding: 20px 40px;
+}
+.logo img{
+    height: 30px;
+}
+
