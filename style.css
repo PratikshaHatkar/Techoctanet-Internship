@@ -1,117 +1,104 @@
 *{
-   margin: 0;
-   padding: 0;
-   color: white;
-}
-@media(max-width:600px){
-.top{
-    flex-direction: column;
-    align-items: flex-start;
-    }
-.image{
-    width: 10%;
-    height: 15vh;
-    background-position: center;
-    background-size: cover;
-}
-.mid{
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.bottom{
-    flex-direction: column;
-    align-items: flex-start;  
-}
-.img1 ,.img2{
-    min-width: 100%;
-    height: 20vh;
-}
-.logo img{
-   padding: 10px;
-}
-}
-.top{
-    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Free-Website-BAckgrounds1.jpg);
-    width: 100%;
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-}
-.top h1{
-    margin: 20px;
-    padding: 10px;
-    font-size: 100px;
-}
-.image{
-    background-image: url(https://assets.hongkiat.com/uploads/nature-photography/autumn-poolside.jpg);
-    width: 17%;
-    height: 42vh;
-    background-position: center;
-    background-size: cover;
-    border: 3px solid white;
-}
-.top p{
-    margin: 20px;
-    padding: 10px;
-    font-size: 25px;  
-}
-.mid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-}
-.mid h1{
-    padding: 68px;
-}
-.mid p{
-    padding: 20px;
-}
-.img1{
-    background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
-    width: 50vw;
-    height: 60vh;
-    background-position: center;
-    background-size: cover;  
-}
-
-.img2{
-     background-image: url(https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-     width: 50vw;
-     height: 60vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+ }
+ @media(max-width:600px){
+ .nav{
+     flex-direction: column;
+     align-items: flex-start;
+     }
+ .top{
+     flex-direction: column;
+     align-items: center;
      background-position: center;
      background-size: cover;
-}
-.separate{
-    background-color: white;
-    height: 3px;
-}
-.bottom{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-   
-}
-.invert{
-    filter: invert();
-}
-li{
-   list-style: none; 
-   display: flex;
-   padding: 20px 70px;
-   gap: 4vw;
-  
-}
-.logo{
-    padding: 20px 40px;
-}
-.logo img{
-    height: 30px;
-}
-
+ }
+ .login{
+     height:100px;
+     width: 200px;
+ }
+ .login input{
+     width: 70px;
+ }
+ }
+ .nav{
+     background-color: black;
+     display: flex;
+     justify-content: space-between;
+     font-size: 20px;
+    
+ }
+ .separate{
+     background-color: white;
+     height: 3px; 
+ }
+ .nav input{
+     background-color: white;
+     margin: 15px 116px;
+     padding: 17px;
+     height: 7px;
+     width: 23vw;
+     border-radius: 15px;
+     border: 2px solid white;
+     font-size: 20px;
+     color: black;
+ }
+ li{
+     list-style: none; 
+     display: flex;
+     padding: 20px 70px;
+     gap: 4vw;
+    
+  }
+ .top{
+     background-image: url(https://redcliffelabs.com/myhealth/_next/image/?url=https%3A%2F%2Fmyhealth-redcliffelabs.redcliffelabs.com%2Fmedia%2Fblogcard-images%2F3189%2F5de3a87e-ec91-4a32-bb73-7635d6bfb275.jpg&w=1920&q=75);
+     width: 100%;
+     height: 85vh;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content:space-between;
+    
+ }
+ .top h1{
+     margin: 40px;
+     padding: 10px;
+     font-size: 100px;
+ }
+ .login{
+     height: 40vh;
+     border: 5px solid white;
+     width: 18vw;
+     margin: 100px 59px;
+     padding: 20px;
+     border-radius: 18px;
+ }
+ .login input{
+     height: 36px;
+     width: 14vw;
+     border-radius: 14px;
+     padding: 7px 16px;
+     font-size: 15px;
+     margin: 20px;
+     color: black;
+ }
+ button{
+     margin: 19px 50px;
+     font-size: 16px;
+     background-color: red;
+     height: 39px;
+     width: 10vw;
+     border-radius: 13px;
+     border: 2px solid red
+     
+ }
+ .invert{
+     filter: invert();
+ }
+ .logo{
+     padding: 0px 50px;
+ }
+ .logo img{
+     height: 30px;
+ }
